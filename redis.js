@@ -1,9 +1,10 @@
 const Redis = require('ioredis')
 const { redisPort } = require('./config')
 
-const redis = new Redis({
-  port: 6379,
-  host: 'redis'
-})
+const redis = new Redis(parseInt(redisPort))
+// const redis = new Redis({
+//   port: parseInt(redisPort)
+//   // host: 'redis'
+// })
 
 module.exports = redis

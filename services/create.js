@@ -24,9 +24,11 @@ async function createArticle ({ title, description }) {
 
 const validationRules = {
 
-  title: Joi.string(),
+  title: Joi.string()
+    .required(),
 
   description: Joi.string()
+    .required()
 }
 
 module.exports = { service: createArticle, validationRules }
