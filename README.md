@@ -15,7 +15,6 @@ Server is ready to accept requests:
   * `GET http://localhost:3000/api/v1/article` - list articles  
   * `GET http://localhost:3000/api/v1/article/id` - show article by id  
   * `POST http://localhost:3000/api/v1/article` - create article  
-    body (JSON) 
     ```json
     {  
       "title": "your title",  
@@ -23,9 +22,11 @@ Server is ready to accept requests:
     }  
     ```
   * `PUT http://localhost:3000/api/v1/article/id` - update article by id
-    body (JSON): {
+    ```json
+    {
       "title": "your title",
       "description": "your description"
     }
-  DELETE http://localhost:3000/api/v1/article/id - delete article by id
+    ```
+  * `DELETE http://localhost:3000/api/v1/article/id` - delete article by id
 
