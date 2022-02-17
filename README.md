@@ -15,13 +15,14 @@ Server is ready to accept requests:
   * `GET http://localhost:3000/api/v1/article` - list articles  
   * `GET http://localhost:3000/api/v1/article/id` - show article by id  
   * `POST http://localhost:3000/api/v1/article` - create article  
+    body (JSON) 
     ```json
     {  
       "title": "your title",  
       "description": "your description"  
     }  
     ```
-  PUT http://localhost:3000/api/v1/article/id - update article by id
+  * `PUT http://localhost:3000/api/v1/article/id` - update article by id
     body (JSON): {
       "title": "your title",
       "description": "your description"
