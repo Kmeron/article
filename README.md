@@ -15,7 +15,6 @@ Server is ready to accept requests:
   * `GET http://localhost:3000/api/v1/article` - list articles  
   * `GET http://localhost:3000/api/v1/article/id` - show article by id  
   * `POST http://localhost:3000/api/v1/article` - create article  
-    body example (json):
     ```json
     {  
       "title": "your title",  
