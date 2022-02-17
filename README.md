@@ -1,8 +1,8 @@
-# Test project Superheroes
+# Test project Article
 
-#### Instructions to run the app
+#### Instructions to run the server
 ```bash
-cd superheroes 
+cd articles 
 ```
 ```bash
 cp .env.sample .env
@@ -10,4 +10,4 @@ cp .env.sample .env
 ```bash
 docker-compose up -d
 ```  
-go to localhost:3000
+server runs on localhost:3000
