@@ -2,7 +2,7 @@
 
 #### Instructions to run the server
 ```bash
-cd articles 
+cd article 
 ```
 ```bash
 cp .env.sample .env
